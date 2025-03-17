@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens nas extremidades */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px 30px;
+    height: 70px;
+    background-color: #303030; /* Cor de fundo opcional */
+    border-bottom: 1px solid #bababa;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+.nav-links a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.login-btn {
+    margin-left: auto; /* Empurra o botão para a direita */
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0,25);
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
